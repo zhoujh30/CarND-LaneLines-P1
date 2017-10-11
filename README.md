@@ -8,21 +8,27 @@ Overview
 
 When we drive, we use our eyes to decide where to go. The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle. Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
 
-In this project I detect lane lines in images using Python and OpenCV.  OpenCV means "Open-Source Computer Vision", which is a package that has many useful tools for analyzing images.  
+In this project I detected lane lines in images using Python and [OpenCV](http://opencv.org/) (Open-Source Computer Vision).
+
 
 The pipeline
 ---
-1. Converting image to grayscale
-2. Applying a Gaussian blur to the image
-3. Applying Canny edge detection
-4. Masking the image so that only the region of interest is processed
-5. Running the Hough transform to identify lines
-6. Converting those lines into straight lines
-7. Smoothing the result with a moving average filter
-8. Plotting the lines on top of the image
+
+1. Apply the Grayscale transform to return the image with only one color channel
+2. Apply a Gaussian Noise kernel to get rid of some noises
+3. Apply the [Canny transform](https://en.wikipedia.org/wiki/Canny_edge_detector) to detect edges
+4. Apply an image mask so that only the region of interest is selected
+5. Apply the [Hough transform](https://en.wikipedia.org/wiki/Hough_transform) to draw hough lines
+6. Connect the lines
+7. Plot the lines on top of the original image
 
 
-For this project, a great writeup should provide a detailed response to the "Reflection" section of the [project rubric](https://review.udacity.com/#!/rubrics/322/view). There are three parts to the reflection:
+### Solid White Right
+[![Solid White Left](white.jpg)](https://youtu.be/TrcnszzbVkM)
+### Solid Yellow Left
+[![Solid Yellow Left](yellow.jpg)](https://youtu.be/Zmi22-l1W6I)
+
+
 
 Shortcomings
 ---
