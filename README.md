@@ -24,9 +24,9 @@ The pipeline
 
 
 ### Solid White Right
-[![Solid White Left](white.jpg)](https://youtu.be/TrcnszzbVkM)
+[![Solid White Left](https://github.com/zhoujh30/CarND-LaneLines-P1/blob/master/white.gif?raw=true)](https://youtu.be/TrcnszzbVkM)
 ### Solid Yellow Left
-[![Solid Yellow Left](yellow.jpg)](https://youtu.be/Zmi22-l1W6I)
+[![Solid Yellow Left](https://github.com/zhoujh30/CarND-LaneLines-P1/blob/master/yellow.gif?raw=true)](https://youtu.be/Zmi22-l1W6I)
 
 
 
