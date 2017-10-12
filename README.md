@@ -48,11 +48,11 @@ The pipeline
 Shortcomings
 ---
 1. Static region of interest in image masking might not work for all scenarios, e.g. driving on curve roads
-2. Canny edge detection and lines connection don't work very well on lighter roads with unclear contrast between lane color and road color
+2. Canny edge detection and lines connection don't work very well on lighter-colored roads with low contrast between lane color and road color
 
 
 Possible Improvements
 ---
-1. Apply neural network to the image masking to select a dynamic region of interest that learns to work for all scenarios
-2. Employ additional tools to assist with edge detection and lines connection
+1. Apply neural network to image masking to select a dynamic region of interest that learns to work for all scenarios
+2. Employ additional tools to help improve edge detection and lines connection
  
