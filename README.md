@@ -11,7 +11,7 @@ When we drive, we use our eyes to decide where to go. The lines on the road that
 In this project I detected lane lines in images using Python and [OpenCV](http://opencv.org/) (Open-Source Computer Vision).
 
 
-The pipeline
+The pipeline (see [Jupyter Notebook](https://github.com/zhoujh30/CarND-LaneLines-P1/blob/master/P1.ipynb?raw=true))
 ---
 
 1. Apply the Grayscale transform to return the image with only one color channel
